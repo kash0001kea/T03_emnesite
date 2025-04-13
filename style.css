@@ -1,0 +1,634 @@
+/* Reset Margin */
+*{
+Box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+/* general */
+img{
+width: 100%;
+height: auto; 
+display: block;
+}
+
+h1{
+margin-block: 1.2rem 1rem; /* Don’t remember what this was for */
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-size: 4rem; /*64px*/
+color: #FF5B5B;
+text-align: center;
+text-transform: uppercase;
+}
+
+section h1:first-child{
+    background: -webkit-linear-gradient(45deg,#ffa800,#FF5B5B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+h2{
+margin-block: 1rem 0.5rem;
+margin-bottom: 80px;
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-size: 2.25rem;
+color: #ffa800;
+background: -webkit-linear-gradient(45deg,#ffa800,#FF5B5B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-align: center;
+text-transform: uppercase;
+}
+
+p{
+margin-block: 0.5rem 0.5rem;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+max-width: 65ch;
+text-wrap: balance;
+font-size: .875rem;
+color: #ffffff;
+text-align: center;
+}
+
+.button_2{
+    margin: 10px;
+    padding: 12px 80px 12px 80px;
+    /* border: solid #1a1a1a; */
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'open sans', sans-serif;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+    background: -webkit-linear-gradient(45deg,#ffa800,#FF5B5B);
+    transition-duration: 0.4s;
+}
+
+.button_2:hover{
+    background: #1a1a1a;
+    color: #FF5B5B;
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.3);
+    padding: 16px 84px 16px 84px;
+    font-size: 1.25rem;
+}
+
+/* Navigation */
+header {
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px 30px 200px;
+    background-color: #1a1a1a;
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.3);
+}
+
+.logo img{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+    /* margin-bottom: 100px; */
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav ul {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto; 
+}*/
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.menu a{
+    display: block;
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    text-align: end;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover {
+    text-decoration: none;
+    font-size: 1.5rem; 
+    color:#FF5B5B;
+}
+nav a:active {
+    text-decoration: underline;
+} 
+
+.burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .burger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+  }
+  .burger {
+    display: none;
+  }
+/* COLORS #FF5B5B, #ffa800 #1a1a1a #303030 #ffffff */
+/* ------------------------- Home --------------------------*/
+
+/* .hero{
+    position: relative;
+}
+
+.hero-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    display: flex;
+} */
+
+.hero_overlay{
+background:#1a1a1a69;
+grid-row: 1/7;
+grid-column: 1/7;
+
+} 
+
+strong {
+    font-weight: 900;
+}
+
+.hero h1{
+margin-block: 1.2rem 1rem;
+margin-bottom: 50px;
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-size: 4rem;
+text-transform: uppercase;
+color: #fff;
+text-align: center;
+/* position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); */
+}
+
+.button_1{
+    margin: 10px;
+    padding: 12px 80px 12px 80px;
+    /* border: solid #fff; */
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'open sans', sans-serif;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+    background: -webkit-linear-gradient(45deg,#ffa800,#FF5B5B);
+    transition-duration: 0.4s;
+}
+
+.button_1:hover{
+    /* background-color: #ffffff;
+    color: #FF5B5B; */
+    color: #fff;
+    padding: 16px 84px 16px 84px;
+    font-size: 1.25rem;
+}
+
+
+/* how to play section */
+/* .how-to-play{
+    padding: 30px;
+} */
+
+.how-to-play {
+    background-color: #303030;
+    }
+
+.big_num{ /* Big Numbers */
+color: #ffffff40; 
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-size: 8rem;
+text-transform: uppercase;
+text-align: center;
+/*transparency*/
+/* border: solid #fff;
+border-radius: 25px; */
+/* opacity: 25%; */
+margin-top: -30px;
+}
+
+.how-to-play h3{
+margin-block: 1rem 0.5rem;
+font-family: "Open Sans", sans-serif;
+font-weight: 800;
+font-size: 1.875rem;
+color: #ffffff;
+text-align: center;
+}
+
+/* find your adventure section */
+.choose-adventure img{
+    width: 30%;
+    border-radius: 15px;
+}
+
+
+/* review section */
+.reviews{
+    background-color: #303030;
+}
+
+.reviews .grid_1-1-1 div{
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #303030;
+    text-align: center;
+    max-width: 400px;
+    padding: 30px;
+}
+
+.grid_1-1-1 h3{
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.grid_1-1-1 p {
+    margin-block: 0.5rem 0.5rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 65ch;
+    text-wrap: balance;
+    font-size: .874rem;
+    color: #303030;
+    text-align: center;
+  }
+
+/* ----------ABOUT US----------- */
+.about_section{
+    max-width:1400px;
+    margin: auto;
+}
+
+.col_1{
+    margin-bottom: 80px;
+}
+
+.col_1 h2{
+    margin-bottom: 0;
+}
+
+.col_1 p{
+    color: #303030;
+    margin: auto;
+}
+
+.grid_1-1{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 50px;
+}
+
+.grid_1-1 .about_us_text{
+    display: flex;
+    flex-direction: column;
+    /* border: solid #303030; */
+    padding: 20px;
+    justify-content: center;
+}
+
+.grid_1-1 .card{
+    border-radius: 25px;
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.3);
+}
+
+.grid_1-1 h2{
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.grid_1-1 p{
+color: #303030;
+text-align: left;
+}
+
+/* ------------------GAMES-------------------------- */
+
+.games{
+background-color: #303030;
+}
+
+.grid_1-1-1 .card{
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    max-width: 400px;
+    padding: 30px;
+}
+.games .card{
+    padding: 0 0 30px 0;
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.7);
+}
+
+.games h3{
+    color: #FF5B5B;
+    background: -webkit-linear-gradient(45deg,#ffa800,#FF5B5B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-weight:900;
+    line-height: .8;
+}
+.games h4{
+    font-size: 1.5rem;
+    font-family: "open sans", sans-serif;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.games p{
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.games button{
+    font-family: "open sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #FF5B5B;
+    background: -webkit-linear-gradient(45deg,#ffa800,#FF5B5B);
+    
+    
+    padding: 10px 80px 10px 80px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.games button:hover{
+    /* color: #FF5B5B;
+    background: #303030; */
+    /* background: -webkit-linear-gradient(45deg,#ffa800,#FF5B5B); */
+    font-size: 1.2rem;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+.details{
+    font-family: "open sans", sans-serif;
+    font-weight: bold;
+    border: solid #fff;
+    border-radius: 10px;
+    width: 350px;
+    margin:auto;
+    padding: 5px 0 5px 0;
+    
+}
+.break{
+    border-right: 3px solid #fff;
+    border-radius: 0;
+}
+
+/* -----------------CONTACT------------------------------ */
+.contact{
+    background-color: #303030;
+}
+
+.contact h3{
+    color:#fff;
+    font-family: "inter", sans-serif;
+}
+
+.opening_hours h2{  
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+
+.opening_hours p{
+    text-align: right;
+}
+
+
+/* --------------------FOOTER ------------------*/
+footer{
+    background-color: #1a1a1a;
+    color:#ffffff
+}
+
+/* .socials{
+    max-width: 22px;
+} */
+
+
+/*-----------------------------------------------*/
+/*--------------- MOBILE VERSION ----------------*/
+/*-----------------------------------------------*/
+
+
+@media (max-width: 1200px){
+   
+    /* ---------------- BURGER MENU ---------------- */
+    header{
+        padding: 20px 20px 20px 20px;
+    }
+    
+    .menu {
+        display: none;
+      }
+      .burger {
+        display: block;
+      }
+
+      .burger.active .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+        transition: 0.2s linear;
+      }
+    
+      .burger.active .line:nth-child(2) {
+        opacity: 0;
+        transition: 0.15s linear;
+      }
+    
+      .burger.active .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+        transition: 0.2s linear;
+      }
+    
+      nav.active .menu {
+        display: block;
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+      }
+    
+      nav.active .menu li {
+        margin: 10px 20px;
+      }
+    
+      nav.active .menu a {
+        font-size: 1.5rem;
+      }
+    /* ---------------- HOME ---------------- */ 
+    .hero h1{
+        font-size: 1.15rem;
+        text-wrap: balance;
+    }
+
+    
+
+    .button_1{
+        padding: 10px 40px 10px 40px;
+        font-size: .9rem;
+        /* border: solid 2.5px; */
+    }
+
+    .col_3-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .how-to-play h2{
+        margin-bottom: 0;
+    }
+
+    .big_num{
+        line-height: 1;
+        margin-top: 50px;
+    }
+
+    .choose-adventure img{
+        width: 100%;
+    }
+
+/* ---------------- ABOUT US ---------------- */
+
+
+    .col_1 .mobile-card{
+        border-radius: 25px;
+        box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.3);
+    }
+    
+    .our_story_text{
+        padding: 20px;
+    }
+
+    .about_section h2{
+        line-height: 1.1;
+        font-size: 1.8rem;
+
+    }
+
+    .col_1 h2{
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    
+    .col_1 p{
+        text-align: left;
+    }
+
+
+    /* ---------------- GAMES ---------------- */
+
+    .games h1{
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+
+    .games h3{
+        line-height: .8;
+    }
+
+    .games p{
+        padding-bottom: 10px;
+    }
+
+    .details{
+        width: 300px;
+    }
+
+
+    /* ---------------- CONTACT ---------------- */
+
+    .info img{
+        /* margin: 20px;
+        padding:20px;
+        border:solid 1px white;
+        border-radius: 100%; */
+    }
+
+    /* ---------------- Footer ---------------- */ 
+    .footer_nav{
+        font-size: .9rem;
+    }
+
+  
+
+     
+    
+    
+    
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+    /* ---------------- BURGER MENU ---------------- */
+}

@@ -1,0 +1,228 @@
+/* ---------------HOME--------------- */
+
+section{
+    padding: 30px 200px 80px 200px;
+}
+
+/* hero image */
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+.hero-img{
+    grid-row: 1/7;
+    grid-column: 1/7;
+}
+
+.hero-text{  
+    grid-row: 2/6;
+    grid-column: 2/6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* how to play section */
+.col_3-1{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.col_3-1 p{
+    max-width: 30ch;
+    text-wrap: balance;
+}
+
+/* find your adventure */
+.carousel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+/*--- reviews section ---*/
+/* .reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+.grid_1-1-1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* -------------------ABOUT US------------------*/
+
+/* -------------------GAMES------------------*/
+
+.games .grid_1-1-1{
+    flex-wrap: wrap;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.details div{
+    padding: 0;
+}
+
+
+
+/* -------------------CONTACT------------------*/
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.info div{
+    display: flex;
+    gap: 10px;
+    text-align: left;
+}
+
+.info div p{
+    text-align: left;
+}
+
+.info img{
+    width: 25px;
+}
+
+.opening_hours{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* -------------------FOOTER -----------------*/
+.col_5{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 200px;
+}
+
+.col_5 .logo{
+    max-width: 200px;
+}
+
+.col_5 p{
+    text-align: left;
+}
+
+.col_5 a{
+    text-decoration: none;
+    color: #FF5B5B;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+}
+
+.footer_nav{
+    display: flex;
+    gap: 30px;
+}
+
+.socials{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:start;
+    gap: 10px;
+}
+
+
+/*-----------------------------------------------*/
+/*--------------- MOBILE VERSION ----------------*/
+/*-----------------------------------------------*/
+
+@media (max-width: 1200px){
+    section{
+        padding: 30px 20px 80px 20px;
+    }
+
+    .hero-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .hero-img{
+        height: 500px;
+    }
+
+    /* .hero-text{
+        grid-row: 1 / 7;
+        grid-column: 2 / 6;
+    } */
+
+    .grid_1-1-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+/* ---------------- ABOUT US ---------------- */ 
+    .grid_1-1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+/* ---------------- CONTACT ---------------- */ 
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: self-start;
+    }
+
+    .opening_hours{
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+    }
+
+    .opening_hours h2{
+        margin: 20px 0px 5px 0px;
+    }
+
+    .opening_hours p{
+        text-align: left;
+    }
+
+    /*------------Footer-------------*/
+    .col_5{ 
+        padding: 20px 20px 20px 20px;
+    }
+
+}
+
+
+
+
+
+/* ---------------- HOME ---------------- */ 
+/* ---------------- HOME ---------------- */ 
+/* ---------------- HOME ---------------- */ 
+/* ---------------- HOME ---------------- */ 
+/* ---------------- HOME ---------------- */
+/* ---------------- HOME ---------------- */
+/* ---------------- HOME ---------------- */ 
+/* ---------------- HOME ---------------- */ 
+/* ---------------- HOME ---------------- */ 
+/* ---------------- HOME ---------------- */ 
+/* ---------------- HOME ---------------- */ 
